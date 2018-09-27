@@ -71,7 +71,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     </div>
 </div>
 
- to web server<div class="row">
+ <div class="row">
     <div class="columns large-6">
         <h4>Environment</h4>
         <ul>
@@ -95,10 +95,10 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
             <li class="bullet problem">Your version of PHP does NOT have the openssl or mcrypt extension loaded.</li>
         <?php endif; ?>
 
- to web server        <?php if (extension_loaded('intl')) : ?>
+        <?php if (extension_loaded('intl')) : ?>
             <li class="bullet success">Your version of PHP has the intl extension loaded.</li>
         <?php else : ?>
- to web server            <li class="bullet problem">Your version of PHP does NOT have the intl extension loaded.</li>
+             <li class="bullet problem">Your version of PHP does NOT have the intl extension loaded.</li>
         <?php endif; ?>
         </ul>
     </div>
